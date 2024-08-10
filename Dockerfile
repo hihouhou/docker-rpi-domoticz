@@ -7,7 +7,7 @@
 # Pull base image.
 FROM sdhibit/rpi-raspbian:latest
 
-MAINTAINER hihouhou < hihouhou@hihouhou.com >
+LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
 # Update & install packages
 RUN apt-get update && \
